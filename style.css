@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+.wrapper {
+    font-family: 'Roboto', sans-serif;
+    margin: 232px auto;
+    width: 336px;
+    min-height: 236px;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.main div {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    position: absolute;
+    width: 334px;
+    height: 28px;
+    background: #FFDC40;
+    box-sizing: border-box;
+    border-radius: 9px 9px 0 0;
+}
+
+h1 {
+    padding-top: 23px;
+    font-size: 26px;
+}
+
+#sort {
+    background-color: #FFFFFF;
+    border: 0;  
+    margin-left: 235px;
+}
+
+.addTask {
+    position: relative;
+}
+
+#newTask {
+    width: 286px;
+    min-height: 40px;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-top: 9px;
+    padding: 1px 27px;
+    font-size: 14px;
+    outline: none;
+    resize: none;
+    overflow: hidden;
+    line-height: 250%;
+    font-family: Roboto;
+  }
+
+#deleteTask {
+    position: absolute;
+    top: 18px;
+    right: 47px;
+    background-color: #FFFFFF;
+    border: 0;
+}
+
+#enter {
+    background: #833AE0 url('images/Group\ 33.png') no-repeat;
+    padding-left: 21px;
+    font-family: Roboto;
+    font-size: 14px;
+    height: 42px;
+    width: 150px;
+    color: #FFFFFF;
+    border-radius: 71px;
+    border: 0;
+    margin-top: 18px;
+    margin-bottom: 19px;
+}
