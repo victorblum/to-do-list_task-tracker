@@ -10,11 +10,6 @@
     box-sizing: border-box;
 }
 
-.main div {
-    display: flex;
-    justify-content: center;
-}
-
 .header {
     position: absolute;
     width: 334px;
@@ -27,16 +22,21 @@
 h1 {
     padding-top: 23px;
     font-size: 26px;
+    display: flex;
+    justify-content: center;
 }
 
 #sort {
     background-color: #FFFFFF;
     border: 0;  
-    margin-left: 235px;
+    margin-left: 274px;
+    cursor: pointer;
 }
 
 .addTask {
     position: relative;
+    display: flex;
+    justify-content: center;
 }
 
 #newTask {
@@ -49,23 +49,38 @@ h1 {
     padding: 1px 27px;
     font-size: 14px;
     outline: none;
-    resize: none;
-    overflow: hidden;
-    line-height: 250%;
     font-family: Roboto;
   }
 
 #deleteTask {
+    border-radius: 71px;
+    color: #C4C4C4;
     position: absolute;
-    top: 18px;
-    right: 47px;
+    right: 52px;
+    top: 19px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #C4C4C4;
     background-color: #FFFFFF;
-    border: 0;
+    cursor: pointer;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2px;
+    padding-left: 7px;
 }
 
+#deleteTask:hover {
+    background-color: #833AE0;
+    color: #FFFFFF;
+    border: 0;
+  }
+
 #enter {
-    background: #833AE0 url('images/Group\ 33.png') no-repeat;
-    padding-left: 21px;
+    background-color: #833AE0;
     font-family: Roboto;
     font-size: 14px;
     height: 42px;
@@ -75,4 +90,72 @@ h1 {
     border: 0;
     margin-top: 18px;
     margin-bottom: 19px;
+    cursor: pointer;
 }
+
+.plusButton {
+    display: flex;
+    justify-content: center;
+}
+
+.plus {
+    background: #9953F1;
+    border-radius: 71px;
+    display: inline-flex;
+    width: 41px;
+    height: 41px;
+    position: relative;
+    right: 22px;
+    justify-content: center;
+    align-items: center;
+}
+
+.taskList {
+    width: 286px;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-top: 9px;
+    font-size: 14px;
+    line-height: 300%;
+    font-family: Roboto;
+    padding: 0px 27px;
+    display: none;
+}
+
+.taskList ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.taskList ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.liButton {
+    border-radius: 71px;
+    color: #C4C4C4;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #C4C4C4;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2px;
+    padding-left: 6px;
+    transform: rotate(45deg);
+}
+
+.liButton:hover {
+    background-color: #833AE0;
+    color: #FFFFFF;
+    border: 0;
+  }
