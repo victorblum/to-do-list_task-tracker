@@ -15,21 +15,21 @@
                 <h1>To-Do List</h1>
             </div>
             <div> 
-                <button id="sort"><img src="images/Group 74.svg" alt="Sorting button"></button>
+                <button id="sort"></button>
             </div>
             <div class="addTask">
-                <form>
+                <form id="taskForm">
                     <div>
-                        <input id="newTask" name="newTask" maxlength="25">
-                        <button id="deleteTask">&times;</button>
+                        <input type="text" id="newTask" name="newTask" maxlength="25">
+                        <button type="reset" id="deleteTask">&times;</button>
                     </div>
                     <div class="taskList">
                             <ul></ul>
                     </div>
+                    <div class="plusButton">
+                        <button id="enter"><span class="plus">+</span>Добавить</button>
+                    </div>
                 </form>
-            </div>
-            <div class="plusButton">
-                <button id="enter"><span class="plus">+</span>Добавить</button>
             </div>
         </div>
     </div>
