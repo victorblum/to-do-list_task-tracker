@@ -18,10 +18,19 @@
     border-radius: 9px 9px 0 0;
 }
 
-h1 {
-    font-size: 26px;
+.headerName {
     display: flex;
     justify-content: center;
+}
+
+h1 {
+    font-size: 26px;
+}
+
+.sortButton {
+    display: flex;
+    justify-content: flex-end;
+    width: 305px;
 }
 
 #sort {
@@ -29,8 +38,6 @@ h1 {
     width: 25px;
     height: 15px;
     border: 0;  
-    position: relative;
-    left: 280px;
     cursor: pointer;
 }
 
@@ -57,7 +64,7 @@ h1 {
     font-family: Roboto;
   }
 
-#deleteTask {
+#resetTask {
     border-radius: 71px;
     color: #C4C4C4;
     position: absolute;
@@ -77,7 +84,7 @@ h1 {
     transform: rotate(90deg);
 }
 
-#deleteTask:hover {
+#resetTask:hover {
     background-color: #833AE0;
     color: #FFFFFF;
     border: 0;
@@ -98,6 +105,13 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+#enter:hover {
+    background: #9953F1;
+}
+
+#enter:hover .plus {
+    background: #AA68FE;
 }
 
 .plusButton {
@@ -177,4 +191,3 @@ h1 {
     color: #FFFFFF;
     border: 0;
   }
-  
