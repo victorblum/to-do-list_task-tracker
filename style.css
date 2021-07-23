@@ -1,20 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
 
+body {
+    height: 100vh;
+    display: flex;
+    vertical-align: middle;
+    justify-content: center;
+}
+
 .wrapper {
     font-family: 'Roboto', sans-serif;
-    margin: 232px auto;
     width: 336px;
     min-height: 236px;
     border: 1px solid #C4C4C4;
     border-radius: 10px;
     box-sizing: border-box;
+    margin: auto;
 }
 
 .header {
-    width: 334px;
+    width: 100%;
     height: 28px;
     background: #FFDC40;
-    box-sizing: border-box;
     border-radius: 9px 9px 0 0;
 }
 
