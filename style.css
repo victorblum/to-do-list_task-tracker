@@ -5,6 +5,7 @@ body {
     display: flex;
     vertical-align: middle;
     justify-content: center;
+    margin: 0;
 }
 
 .wrapper {
@@ -14,7 +15,7 @@ body {
     border: 1px solid #C4C4C4;
     border-radius: 10px;
     box-sizing: border-box;
-    margin: auto;
+    margin: auto
 }
 
 .header {
