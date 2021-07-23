@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
-
 body {
+    margin: 0;
+}
+.wrapper {
     height: 100vh;
     display: flex;
     vertical-align: middle;
     justify-content: center;
-    margin: 0;
 }
 
-.wrapper {
+.content {
     font-family: 'Roboto', sans-serif;
     width: 336px;
     min-height: 236px;
