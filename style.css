@@ -191,7 +191,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    transform: rotate(90deg);
+    padding-top: 2px;
 }
 
 .liButton:hover {
